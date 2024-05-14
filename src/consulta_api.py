@@ -34,4 +34,4 @@ for ano in range(2024, 2013, -1):
             all_contratos.extend(contratos)
 
         df = pd.DataFrame(all_contratos)
-        df.to_csv(f"contratos_{ano}.csv")
+        df.to_csv(f"data/contratos_{ano}.csv")
