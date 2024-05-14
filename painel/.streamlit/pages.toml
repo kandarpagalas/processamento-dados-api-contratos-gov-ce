@@ -1,0 +1,36 @@
+[[pages]]
+path = "home.py"
+name = "Home"
+icon = ""
+
+[[pages]]
+path = "pages/api.py"
+name = "API"
+icon = ""
+
+
+[[pages]]
+name = "Gráficos"
+icon = ""
+is_section = true
+
+
+[[pages]]
+path = "pages/modalidade.py"
+name = "Modalidade"
+icon = ""
+
+[[pages]]
+path = "pages/situacao.py"
+name = "Situação"
+icon = ""
+
+[[pages]]
+path = "pages/assinaturas.py"
+name = "Assinaturas"
+icon = ""
+
+[[pages]]
+name = "Insights"
+icon = ""
+is_section = true
