@@ -1,17 +1,32 @@
-# Trabalho final Introduão ao processamento de dados
+# Explorando o Streamlit com os dados do trabalho Final
 
-# Consulta API
-1. Escolha
-2. Acesse e baixe os dados
+## Instalar requisitos
+```bash
+cd painel
 
-# Analise exploratória
+## Ativar ambiente virtual
+# Windows
+python -m venv venv
+venv\Scripts\activate
 
-# Persista os dados
+# Mac / Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+```bash
+## Desativar ambiente virtual
+pip install -r requirements.txt
+```
+```bash
+## Desativar ambiente virtual
+deactivate
+```
 
-# Identifique e apresente pelo menos 3 insights relevantes.
-Explique cada insight e como ele pode ser útil em um contexto prático.
+## Iniciar servidor Streamlit
 
-# Relatório
-Prepare um relatório ou apresentação que inclua a descrição da API escolhida,o processo de acesso e obtenção dos dados, a análise exploratória realizada, os insights identificados e uma reflexão sobre a
-importância e aplicabilidade desses insights.
+```bash
+streamlit run home.py
+```
 
+
+## Iniciar servidor Streamlit
