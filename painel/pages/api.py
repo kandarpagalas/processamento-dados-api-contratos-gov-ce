@@ -15,12 +15,18 @@ add_page_title(
     )
 show_pages_from_config()
 
-"Descrição da api"
 
-"Processo de acesso"
+mkd = """
+Dados abertos do Governo do Estado do Ceará
 
-"Analise exploratória"
+### Descrição
+API disponibilizada pelo Goverdo do Estado do Ceará, com o objetivo de dar transparência.
+Permite consulta a contratos firmado pelo Estado a partir de 2007.
 
-"Insights"
+### Endpoint: 
+"https://api-dados-abertos.cearatransparente.ce.gov.br/transparencia/contratos/contratos"
 
-"Reflexão sobre a publicidade desses dados"
+"""
+
+
+st.markdown(mkd)

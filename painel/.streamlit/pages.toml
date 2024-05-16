@@ -10,7 +10,7 @@ icon = ""
 
 
 [[pages]]
-name = "Gráficos"
+name = "Gráficos Contratos"
 icon = ""
 is_section = true
 
@@ -31,6 +31,6 @@ name = "Assinaturas"
 icon = ""
 
 [[pages]]
-name = "Insights"
+name = "Insights (Em contrução)"
 icon = ""
 is_section = true

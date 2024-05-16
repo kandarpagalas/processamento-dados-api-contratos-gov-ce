@@ -1,4 +1,5 @@
 # Explorando o Streamlit com os dados do trabalho Final
+Este painel é um exercício de aprendizagem, com o objetivo de explorar as possibilidades do ```Streamlit``` na visualização de dados em um formato interativo.
 
 ## Instalar requisitos
 ```bash
@@ -28,5 +29,3 @@ deactivate
 streamlit run home.py
 ```
 
-
-## Iniciar servidor Streamlit
